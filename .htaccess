@@ -1,0 +1,19 @@
+RewriteEngine on
+# turns on mod_rewrite
+
+RewriteCond %{REQUEST_FILENAME} !-d
+# verifies that the requested FILE is not a directory
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+# verifies that the requested FILE + .php exists as a file on the filesystem
+
+RewriteRule ^(.*)$ $1.php
+# executes the file found in the previous step
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+
+Options -Indexes
+# disallow user to view subdirectory files
+
+RewriteRule ^sitemap\.xml$ /sitemap.php [L]
