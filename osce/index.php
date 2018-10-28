@@ -130,7 +130,7 @@ if (isset($_POST['registrationForm'])) {
                                         <input type="email" class="form-control" name="studentEmail" value="@student.bond.edu.au">
                                     </div>
                                     <div class="form-group">
-                                        <label>Session</label>
+                                        <label>Preferred Session</label>
                                         <select class="form-control" name="osceSession">
                                             <option selected>-- Select a Session --</option>
                                             <option value="1">Session 1 - 6:30pm - 7:30pm</option>
