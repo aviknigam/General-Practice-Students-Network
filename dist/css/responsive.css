@@ -1,0 +1,61 @@
+/* Responsive */
+@media (min-width: 392px) {
+
+}
+
+@media (min-width: 425px) {
+
+}
+
+@media (min-width: 520px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        .section {
+            margin-top: 40px;
+        }
+    }
+
+    @media (min-width: 620px) {
+        /* OSCE */
+            #registrationForm {
+                width: 60%;
+            }
+    }
+
+/* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        .site-margin {
+            background: #ffffff;
+            margin: auto;
+            padding-left: 25px;
+            padding-right: 25px;
+            width: 768px;
+        }
+
+        .mobile-nav {
+            display: none;
+        }
+
+        .social-nav {
+            display: block;
+        }
+        
+    }
+
+/* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .site-margin {
+            width: 875px;
+        }
+
+    }
+
+/* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .site-margin {
+            width: 975px;
+        }
+    }

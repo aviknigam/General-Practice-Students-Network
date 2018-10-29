@@ -1,0 +1,92 @@
+/*
+-------------------------------------------
+	WEBSITE CREATED BY AVIK NIGAM
+
+* Contact at business.aviknigam@gmail.com
+
+* Great quality websites!
+-------------------------------------------
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Montserrat|Merriweather');
+
+::selection {
+	background: #000000;
+	color: #FFFFFF;
+	/* color: #00adef; */
+}
+
+html {
+}
+
+body {
+	background: #F2F2F2;
+	color: #333333;
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+}
+
+.section {
+	margin-top: 30px;
+}
+
+/* Configuration */
+	.blue-a {
+		color: #00ADEF;
+		padding: 5px;
+	}
+
+	.blue-a:hover {
+		background: #62c6ee;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	.text-black {
+		color: #000000;
+	}
+
+	.text-grey {
+		color: #666666;
+	}
+
+	.text-white {
+		color: #FFFFFF;
+	}
+
+	.text-red {
+		color: #ED2527;
+	}
+
+/* Mobile Nav */
+	.mobile-nav {
+		background: #000000;
+		color: #FFFFFF;
+		display: block;
+		font-family: 'Montserrat', serif;
+		text-transform: uppercase;
+		padding: 0;
+	}
+
+	.mobile-nav ul li a {
+		color: #FFFFFF;
+	}
+
+/* Landing */
+	.landing {
+		padding-top: 90px;
+	}
+
+/* Footer */
+	footer {
+		border-top: 1px solid #666;
+		font-family: 'Montserrat';
+		margin-top: 40px;
+		padding: 40px 0;
+		/* text-transform: uppercase; */
+	}
+
+	.footer-vultr {
+		height: 20px;
+		margin-left: 10px;
+	}
