@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto:400,500');
+
+.brand {
+    font-family: "Lobster", cursive;
+}
+
+.brand-logo {
+    height: 60px;
+}
+
+.navbar {
+    margin-bottom: 24px;
+    padding: 0 16px 0 0;
+}
+
+/* .navbar-brand {
+    padding: 0;
+} */
+
+.section {
+    margin: 30px auto;
+}
+
+.hide {
+    display: none;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.preview-img {
+    display: block;
+    height: 30px;
+    margin: auto;
+}
