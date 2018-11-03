@@ -70,6 +70,16 @@ if (isset($_POST['studentForm']) || isset($_POST['spForm']) || isset($_POST['tut
 			header("Location: ./");
 			die();
 		}
+	} elseif (isset($osceSession1) && isset($osceSession2)) {
+		$osceAdd = $conn->prepare("INSERT INTO osce (studentID, uniID, osceRole, osceSession, osceCreated) VALUES (?, ?, ?, ?, ?)");
+		$osceAdd->bind_param("sssss", $studentID, $uniID, $osceRole, $osceSession1, $date);
+		$osceAdd->execute();
+
+		$osceAdd = $conn->prepare("INSERT INTO osce (studentID, uniID, osceRole, osceSession, osceCreated) VALUES (?, ?, ?, ?, ?)");
+		$osceAdd->bind_param("sssss", $studentID, $uniID, $osceRole, $osceSession2, $date);
+		$osceAdd->execute();
+
+		header("Location: ./");
 	} elseif (isset($osceSession1)) {
 		$osceAdd = $conn->prepare("INSERT INTO osce (studentID, uniID, osceRole, osceSession, osceCreated) VALUES (?, ?, ?, ?, ?)");
 		$osceAdd->bind_param("sssss", $studentID, $uniID, $osceRole, $osceSession1, $date);
