@@ -107,7 +107,7 @@ if (isset($_POST['studentForm']) || isset($_POST['spForm']) || isset($_POST['tut
 	</head>
 	<body>
 		<!-- Navbar -->
-			<?php // include '../includes/navbar.php'; ?>
+			<?php include '../includes/navbar.php'; ?>
 		
 		<!-- Content -->
 			<div class="site-margin">
